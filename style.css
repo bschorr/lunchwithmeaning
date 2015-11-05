@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+body {
+	background-color: #dde3e8;
+	font-family: 'HelveticaNeueW01-77BdCn 692722', 'Helvetica Neue Condensed Bold', 'HelveticaNeue-CondensedBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	visibility: hidden;
+	margin: auto;
+	width: 146px;
+	height: 30px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.orange-text {
+	color: #ff821f;
+}
+
+.ss-form {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 18px;
+	background-color: #fff;
+	max-width: 940px;
+	margin: auto;
+}
+
+.menu {
+	margin-top: 25px;
+	width: 100%`;
+}
+
+.menu img{
+	width: 100%;
+
+}
+
+.ss-question-list {
+	width: 50%;
+	min-width: 360px;
+	margin: auto;
+	padding: 0 10px;
+}
+
+.ss-item {
+	margin-top: 15px;
+}
+
+input {
+	margin-top: 5px;
+	width: 100%;
+	font-size: 18px;
+	padding: 3px 0;
+}
+
+textarea {
+	margin-top: 5px;
+	width: 100%;
+	font-size: 18px;
+	padding: 3px 0;}
+
+#ss-submit {
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-top: 25px;
+	height: 50px;
+	font-family: 'HelveticaNeueW01-77BdCn 692722', 'Helvetica Neue Condensed Bold', 'HelveticaNeue-CondensedBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #ff821f;
+	color: #fff;]
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+#ss-submit:hover {
+	background-color: #e56906;
+
+}
+
+input[type=submit] {
+	border: 0;
+
+}
+
+
